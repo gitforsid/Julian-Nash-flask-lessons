@@ -1,0 +1,43 @@
+{% extends "public/bass/basick.html" %}
+
+{% block title %} sign_up {% endblock %}
+
+{% block main %}
+
+<div class="container">
+  <div class="rov">
+    <div class="col">
+
+      <h1>sing up</h1>
+      <hr>
+
+      <form class="" action="/sign_up" method="post">
+
+        <div class="form-group">
+          <label>username</label>
+          <input class="form-control" type="text" name="username" value="">
+        </div>
+
+        <div class="form-group">
+          <label>email</label>
+          <input class="form-control" type="email" name="email" value="">
+        </div>
+
+        <div class="form-group">
+          <label>password</label>
+          <input class="form-control" type="password" name="password" value="">
+        </div>
+
+        <button class="btn btn-primary" type="submit" name="button">sign_up</button>
+
+      </form>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+
+{% endblock %}
